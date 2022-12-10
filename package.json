@@ -3,8 +3,9 @@
   "version": "0.0.1",
   "description": "something about dice",
   "main": "./lib/roll.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+    "test": "node ./bin/cli.js --sides 4; node ./bin/cli.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/comp426-2022-fall/a03-zuntue/issues"
   },
-  "homepage": "https://github.com/comp426-2022-fall/a03-zuntue#readme"
+  "homepage": "https://github.com/comp426-2022-fall/a03-zuntue#readme",
+  "dependencies": {
+    "minimist": "^1.2.7"
+  }
 }
