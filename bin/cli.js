@@ -10,4 +10,4 @@ const rolls = args.rolls > 0 ? args.rolls : 1;
 
 const output = roll(sides, dice, rolls);
 
-console.log(JSON.stringify(output))
+console.log(JSON.stringify(output));
