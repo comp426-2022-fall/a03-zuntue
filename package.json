@@ -4,6 +4,9 @@
   "description": "something about dice",
   "main": "./lib/roll.js",
   "type": "module",
+  "bin": {
+    "roll-dice": "./bin/cli.js"
+  },
   "scripts": {
     "test": "node ./bin/cli.js --sides 4; node ./bin/cli.js"
   },
